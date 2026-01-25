@@ -28,7 +28,7 @@ Default
 					let mdk = UaS_RandomConsumable(spawn("UaS_RandomFood", pos));
 					mdk.actualpickup(self, true);
 
-					mdk = UaS_RandomConsumable(spawn("UaS_RandomFood", pos));
+					mdk = UaS_RandomConsumable(spawn("UaS_RandomDrink", pos));
 					mdk.actualpickup(self, true);
 
 					mdk = UaS_RandomConsumable(spawn("UaS_RandomDrink", pos));
@@ -36,4 +36,5 @@ Default
 				}
 				Stop;
 	}
+
 }
